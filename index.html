@@ -24,9 +24,9 @@
     <div style="white-space: pre-wrap;">
 Anurag Gulavane
 
-<img src="/assets/me.jpeg" alt="photo" />
+<img src="./assets/me.jpeg" alt="photo" />
 
-  <a href="https://24timezones.com/San-Diego/time-zone">TIME IN SAN DIEGO</a> - 0:00 PM <a href="https://24timezones.com/time-zone/pst">PST</a>
+  <a href="https://24timezones.com/San-Diego/time-zone">TIME IN SAN DIEGO</a> - <span id="time"></span>
 
 <a href="about.html">about</a> // <a href="faq.html">faq</a> // <a href="/blog/">blog</a> // <a href="https://drive.google.com/file/d/1zUDrGvx9X2jmycWlzr1Mqn_C5z51JJz6/view?usp=sharing">resume</a> // <a href="contact.html">contact</a>
     </div>
@@ -38,8 +38,8 @@ Anurag Gulavane
     const options = {
       timeZone: "America/Los_Angeles",
       hour: "numeric",
-      minute: "2-digit",
-      second: "2-digit",
+      minute: "numeric",
+      second: "numeric",
       hour12: true
     };
 
